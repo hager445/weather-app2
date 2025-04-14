@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #1f1f21be;
+  border-radius: 40px;
+  padding: 10px 25px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar span {
+  margin: 0 10px;
+  transform: translateY(0px);
+}
+.navbar span:hover {
+  transform: translateY(2px);
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
