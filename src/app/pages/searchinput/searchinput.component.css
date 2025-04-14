@@ -1,0 +1,13 @@
+.search-input {
+  display: block;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background-color: #1f1f21be;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+span {
+  color: #fff;
+  padding-left: 10px;
+}
