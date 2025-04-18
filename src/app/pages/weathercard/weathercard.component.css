@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   padding: 30px 15px;
+  padding-top: 10px;
   width: 355px;
   margin: auto;
   margin-top: 20px;
@@ -16,6 +17,11 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background: linear-gradient(to bottom, #1d2637, rgba(255, 255, 255, 0));
+}
+.card h4 {
+  font-size: 12px;
+  margin-right: auto;
+  width: fit-content;
 }
 /* ===== */
 .country-name {

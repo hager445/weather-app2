@@ -35,6 +35,8 @@ export class WeathercardComponent {
 this.weatherData.getCountryForecast(city).subscribe({
   next:(res)=>{
       this.data = res;
+      console.log(res);
+      
       this.forcast = res.forecast.forecastday;
         }
   })
