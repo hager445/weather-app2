@@ -1,4 +1,8 @@
 /* display background of the app */
-/* .app {
-  background-image: url();
-} */
+.app {
+  /* background-image: url(); */
+  /* background-color: #3c3c3c; */
+  /* background: linear-gradient(to top, #87cefa, #ffffff); */
+  /* background: linear-gradient(to bottom, #fbc531, #ffeaa7); */
+  background-color: #151d2a;
+}

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { WeatherService } from '../../core/services/weather/weather.service';
 
 @Component({
   selector: 'app-searchinput',
@@ -9,10 +10,11 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './searchinput.component.css'
 })
 export class SearchinputComponent {
-inputValue:string='';
+  private readonly weatherData = inject(WeatherService)
+inputValue :string = '';
 typeInputValue(){
-console.log(this.inputValue);
-
+  this.weatherData.cityName.set(this.inputValue);
+  console.log(this.weatherData.cityName());
 }
 
 }

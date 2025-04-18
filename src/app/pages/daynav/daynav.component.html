@@ -1,0 +1,13 @@
+<div class="nav">
+  <ul (click)="selectActive($event)">
+    <li>
+      <a class="child active" (click)="changeIndex(0)">Today</a>
+    </li>
+    <li>
+      <a class="child" (click)="changeIndex(1)">Tomorrow</a>
+    </li>
+    <li>
+      <a class="child" (click)="changeIndex(2)">Next</a>
+    </li>
+  </ul>
+</div>

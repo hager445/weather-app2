@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 30px 15px;
+  padding-top: 10px;
+  width: 355px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  min-height: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(to bottom, #1d2637, rgba(255, 255, 255, 0));
+}
+.card h4 {
+  font-size: 12px;
+  margin-right: auto;
+  width: fit-content;
+}
+/* ===== */
+.country-name {
+  color: #fff;
+}
+/* ======= */
+.flex-state {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.flex-state > span {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+}
+.card > .image {
+  width: 70px;
+}
+.card > .image img {
+  width: 100%;
+  object-fit: cover;
+}

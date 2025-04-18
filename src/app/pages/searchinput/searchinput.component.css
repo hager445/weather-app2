@@ -1,13 +1,25 @@
 .search-input {
+  width: 300px;
   display: block;
   border: none;
+  color: #fff;
+  padding: 20px 15px;
   outline: none;
+  /* width: 300px; */
   border-radius: 40px;
-  background-color: #1f1f21be;
+  /* background-color: #262628; */
+  background-color: #1d263778;
+
   padding: 10px 15px;
   margin: 10px 0;
+  margin-top: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  caret-color: #fff;
 }
 span {
   color: #fff;
   padding-left: 10px;
+  font-size: 12px;
 }

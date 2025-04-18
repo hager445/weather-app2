@@ -1,0 +1,30 @@
+.nav ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+.nav li a {
+  color: #7e7c7c;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+.nav li a::after {
+  content: "";
+  width: 0%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  /* top: 0; */
+  right: 0;
+  bottom: -8px;
+  background-color: #fff;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.nav li a.active::after {
+  width: 100%;
+}
+.nav li a.active {
+  color: #fff;
+}
