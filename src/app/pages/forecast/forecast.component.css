@@ -1,0 +1,47 @@
+.forecast .title {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 13px;
+  margin: 25px 0;
+}
+
+.cards {
+  width: calc(78px * 8.6);
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  margin: auto;
+}
+.cards::-webkit-scrollbar {
+  height: 2px;
+}
+.cards::-webkit-scrollbar-track {
+  background-color: #1d263744;
+}
+.cards::-webkit-scrollbar-thumb {
+  background-color: #1d263778;
+}
+
+.cards .f-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 5px 7px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  background-color: #1d263778;
+}
+.cards .f-card > * {
+  margin: 5px 0;
+}
+.flex-row {
+  display: flex;
+  gap: 20px;
+}
